@@ -80,12 +80,28 @@ Apache Airflow provides following features:
 * Open Source
 
 == Airflow Feature: Pure Python
+Say goodbye to command-line nor XML black-magic.
 
-No more command-line or XML black-magic! Use standard Python features to create your workflows, including date time formats for scheduling and loops to dynamically generate tasks. This allows you to maintain full flexibility when building your workflows.
+* Standard Python 
+** workflows
+** date time formats
+** loops
 
+[.notes]
+--
+No more dark theme archaic command-line where you cannot jump the cursor where you want and have to parse character by character to move it.
+No more XML 
+Use standard Python features to create your workflows, including date time formats for scheduling and loops to dynamically generate tasks. This allows you to maintain full flexibility when building your workflows.
+-- 
 == Airflow Feature: Useful UI
 
 Monitor, schedule and manage your workflows via a robust and modern web application. No need to learn old, cron-like interfaces. You always have full insight into the status and logs of completed and ongoing tasks.
+
+    
+
+[.notes]
+NOTE: The web-based UI helps users monitor, manage, and troubleshoot workflows efficiently, with clear visual representations.
+
 
 == Airflow Feature: Robust Integrations
 
